@@ -1,5 +1,6 @@
 import { Environment, Float, OrbitControls } from "@react-three/drei";
 import Book from "./Book";
+import { croaziaAprile2026 } from "../data/croazia-aprile-2026";
 
 export const Experience = () => {
   return (

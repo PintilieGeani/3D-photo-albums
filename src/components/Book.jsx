@@ -8,6 +8,8 @@ const Book = ({ ...props }) => {
     const [page] = useAtom(pageAtom)
     const [delayedPage, setDelayedPage] = useState(page)
 
+    
+
     // Animazione delle pagine che girano con delay
     useEffect(() => {
         let timeout;

@@ -1,23 +1,21 @@
 import { atom, useAtom } from "jotai";
 
 const pictures = [
-  "DSC00680",
-  "DSC00933",
-  "DSC00966",
-  "DSC00983",
-  "DSC01011",
-  "DSC01040",
-  "DSC01064",
-  "DSC01071",
-  "DSC01103",
-  "DSC01145",
-  "DSC01420",
-  "DSC01461",
-  "DSC01489",
-  "DSC02031",
-  "DSC02064",
-  "DSC02069",
+  "croazia-aprile-2026 (1)",
+  "croazia-aprile-2026 (2)",
+  "croazia-aprile-2026 (3)",
+  "croazia-aprile-2026 (4)",
+  "croazia-aprile-2026 (5)",
+  "croazia-aprile-2026 (6)",
+  "croazia-aprile-2026 (7)",
+  "croazia-aprile-2026 (8)",
+  "croazia-aprile-2026 (9)",
+  "croazia-aprile-2026 (10)",
+  "croazia-aprile-2026 (11)",
+  "croazia-aprile-2026 (12)",
 ];
+
+
 
 export const pageAtom = atom(0);
 export const pages = [
