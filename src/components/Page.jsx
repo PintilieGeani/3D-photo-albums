@@ -1,11 +1,14 @@
 import { useCursor, useHelper, useTexture } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
-import { useMemo, useRef, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import { BoxGeometry, Uint16BufferAttribute, Vector3, Float32BufferAttribute, Bone, Skeleton, SkinnedMesh, Color, MeshStandardMaterial, SkeletonHelper, SRGBColorSpace, MathUtils } from "three";
 import { degToRad } from "three/src/math/MathUtils.js";
-import { pageAtom, pages } from "./UI"
+import { pageAtom} from "./UI"
 import { easing } from "maath";
 import { useAtom } from "jotai";
+import { useBook } from "../context/BookContext";
+
+
 
 
 // Dimensioni della pagina
@@ -92,11 +95,11 @@ const pageMaterials = [
 
 
 // Loader
-pages.forEach((page) => {
-    useTexture.preload(`/textures/${page.front}.jpg`)
-    useTexture.preload(`/textures/${page.back}.jpg`)
-    useTexture.preload(`/textures/book-cover-roughness.jpg`)
-})
+// pages.forEach((page) => {
+//     useTexture.preload(`/textures/${page.front}.jpg`)
+//     useTexture.preload(`/textures/${page.back}.jpg`)
+//     useTexture.preload(`/textures/book-cover-roughness.jpg`)
+// })
 
 
 
@@ -120,6 +123,8 @@ const Page = ({ number, front, back, page, opened, bookClosed, ...props }) => {
 
     const groupRef = useRef()
     const skinnedMeshRef = useRef()
+    const {pages} = useBook()
+    
     const [picture, picture2, pictureRoughness] = useTexture([
         `/textures/${front}.jpg`,
         `/textures/${back}.jpg`,
@@ -203,6 +208,13 @@ const Page = ({ number, front, back, page, opened, bookClosed, ...props }) => {
         return mesh
     }, [])
 
+    useEffect(() => {
+        if (!skinnedMeshRef.current) return
+        skinnedMeshRef.current.material[4].map = picture
+        skinnedMeshRef.current.material[4].needsUpdate = true
+        skinnedMeshRef.current.material[5].map = picture2
+        skinnedMeshRef.current.material[5].needsUpdate = true
+    }, [picture, picture2])
 
 
     // ANIMAZIONI

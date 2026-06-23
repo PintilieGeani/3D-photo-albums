@@ -1,12 +1,15 @@
-import { pageAtom, pages } from "./UI"
+import { pageAtom } from "./UI"
 import Page from "./Page"
 import { useAtom } from "jotai"
 import { useEffect, useState } from "react"
+import { useBook } from "../context/BookContext"
 
 const Book = ({ ...props }) => {
 
     const [page] = useAtom(pageAtom)
     const [delayedPage, setDelayedPage] = useState(page)
+
+    const {pages} = useBook()
 
     
 

@@ -12,3 +12,10 @@ export const croaziaAprile2026 = [
   "croazia-aprile-2026 (11)",
   "croazia-aprile-2026 (12)",
 ];
+
+
+export const provaCoazia =  [
+  "croazia-aprile-2026 (1)",
+  "croazia-aprile-2026 (2)",
+
+];

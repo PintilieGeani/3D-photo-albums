@@ -1,43 +1,14 @@
 import { atom, useAtom } from "jotai";
-
-const pictures = [
-  "croazia-aprile-2026 (1)",
-  "croazia-aprile-2026 (2)",
-  "croazia-aprile-2026 (3)",
-  "croazia-aprile-2026 (4)",
-  "croazia-aprile-2026 (5)",
-  "croazia-aprile-2026 (6)",
-  "croazia-aprile-2026 (7)",
-  "croazia-aprile-2026 (8)",
-  "croazia-aprile-2026 (9)",
-  "croazia-aprile-2026 (10)",
-  "croazia-aprile-2026 (11)",
-  "croazia-aprile-2026 (12)",
-];
+import { useBook } from "../context/BookContext";
 
 
 
 export const pageAtom = atom(0);
-export const pages = [
-  {
-    front: "book-cover",
-    back: pictures[0],
-  },
-];
-for (let i = 1; i < pictures.length - 1; i += 2) {
-  pages.push({
-    front: pictures[i % pictures.length],
-    back: pictures[(i + 1) % pictures.length],
-  });
-}
 
-pages.push({
-  front: pictures[pictures.length - 1],
-  back: "book-back",
-});
 
 export const UI = () => {
   const [page, setPage] = useAtom(pageAtom);
+  const { pages, ProvaCambio } = useBook()
 
   return (
     <>
@@ -67,6 +38,7 @@ export const UI = () => {
             >
               Back Cover
             </button>
+            <button onClick={ProvaCambio}>Cambia</button>
           </div>
         </div>
       </main>
