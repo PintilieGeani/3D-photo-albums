@@ -26,35 +26,35 @@ export const UI = () => {
           className="flex whitespace-nowrap"
           style={{ animation: "scrollLeft 40s linear infinite", width: "max-content" }}
         >
-          <h1 className="titolo-bold uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>3D Photo Albums</h1>
+          <h1 className="titolo-bold uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Ari & Ge</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-vuoto uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Memories in Motion</h1>
+          <h1 className="titolo-vuoto uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Memories of us</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-small uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Your Story</h1>
+          <h1 className="titolo-small uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Our Story</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-glow uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Flip the Pages</h1>
+          <h1 className="titolo-glow uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>To the moon and back</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-glass uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Life in 3D</h1>
+          <h1 className="titolo-glass uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Our adventures</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
           <h1 className="titolo-vuoto uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Timeless Moments</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-bold uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Every Picture Tells</h1>
+          <h1 className="titolo-bold uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Every moment with you</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
           <h1 className="titolo-glow uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Turn the Page</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-bold uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>3D Photo Albums</h1>
+          <h1 className="titolo-bold uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Ari & Ge</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-vuoto uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Memories in Motion</h1>
+          <h1 className="titolo-vuoto uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Memories of us</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-small uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Your Story</h1>
+          <h1 className="titolo-small uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Our Story</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-glow uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Flip the Pages</h1>
+          <h1 className="titolo-glow uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>To the moon and back</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-glass uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Life in 3D</h1>
+          <h1 className="titolo-glass uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Our adventures</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
           <h1 className="titolo-vuoto uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Timeless Moments</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
-          <h1 className="titolo-bold uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Every Picture Tells</h1>
+          <h1 className="titolo-bold uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Every moment with you</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
           <h1 className="titolo-glow uppercase" style={{ marginRight: "4rem", lineHeight: 1 }}>Turn the Page</h1>
           <span style={{ color: "white", fontSize: "3rem", marginRight: "4rem", lineHeight: 1, alignSelf: "center" }}>•</span>
