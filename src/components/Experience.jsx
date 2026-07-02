@@ -14,7 +14,7 @@ export const Experience = () => {
         <Book />
       </Float>
       <OrbitControls />
-      <Environment preset="studio"></Environment>
+      <Environment preset="night"></Environment>
       <directionalLight
         position={[2, 5, 2]}
         intensity={2.5}

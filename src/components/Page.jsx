@@ -70,7 +70,7 @@ pageGeometry.setAttribute(
 
 // Array per costruire i materiali
 const whiteColor = new Color("White")
-const emisiveColor = new Color("orange")
+const emisiveColor = new Color("purple")
 const pageMaterials = [
     new MeshStandardMaterial({
         color: whiteColor
